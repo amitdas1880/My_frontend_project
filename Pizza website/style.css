@@ -1,0 +1,335 @@
+/* https://www.figma.com/file/f3UMzCDxpThBE5FgI13FTk/PizzaRestauarant?type=design&node-id=0-1&t=5QK24YgtcA9emk05-0 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ /* Style related to NAV BAR */
+nav{
+    background-color: rgb(20, 17, 17);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    color: aliceblue;
+    padding: 1% 0;
+}
+.Pizza{
+    font-size: 20px;
+}
+.part{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width:40%;
+    
+    font-size: 12px;
+}
+.logobar{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    column-gap: 40px;
+}
+
+.logo img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+/* SECOND PART */
+.bodypic{
+    background-image: url(./image/img\(pizza\).jpg);
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.bodypic hr{
+    background-color:red;
+    width: 300px;
+    height: 8px;
+    margin: 28px 70px;
+    
+}
+
+.bigtext{
+    font-family: 'Merriweather', serif;
+    font-size: 140%;
+    color: azure;
+    letter-spacing: 6px;
+    border:transparent solid 2px;
+    padding-left: 3%;
+    margin-left: 2%;
+    margin-right: 63%;
+   
+    
+}
+.bodycontant{
+    color: bisque;
+    font-size: 16px;
+    padding-right: 1.5%;
+    margin-left: 5%;
+    margin-right: 67%;
+    text-align: justify;
+    padding-bottom: 3%;
+    }
+
+#bg:hover{
+    border-color: rgb(240, 69, 7);
+    text-decoration-line: underline;
+    text-decoration-color: rgb(31, 157, 199);
+    text-decoration-style:solid;
+    text-decoration-thickness: 2px;
+
+    border: 3px solid coral
+
+}
+.bigtext:hover{
+    border: 2px solid coral;
+    text-decoration-line: underline;
+    text-decoration-color:rgb(31, 157, 199);
+    text-decoration-style:solid;
+    text-decoration-thickness: 2px;
+
+
+}
+.bodypic:hover{
+    border: 4px solid purple;
+}
+
+/* THIRD PART */
+
+.ABOUT_US{
+    background-color: black;
+    min-height: 500px;
+}
+
+.ABOUT_US h1{
+    color: bisque;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Merriweather', serif;
+}
+.ABOUT_US h1:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(46, 173, 216);
+}
+
+.ABOUT_US hr{
+    background-color:red;
+    width: 300px;
+    height: 5px;
+    margin: 7px 590px;
+    margin-bottom: 50px;
+    
+}
+
+#aboutcontant:hover{
+    text-decoration-line: underline;
+    text-decoration-color:rgb(31, 157, 199);
+    text-decoration-style:solid;
+    text-decoration-thickness:2px;
+
+}
+.pizza_receipe:hover{
+    border: 3px solid rgb(55, 134, 160);
+    border-radius: 5px;
+}
+.pizza_receipe img{
+    height: 250px;
+    width: 300px;
+} 
+.two_container{
+ display: flex;
+ align-items: center;
+ justify-content:center;
+ 
+}
+
+.aboutus_contant{
+    color: beige;
+    border: transparent solid 1px;
+    line-height: 20px;
+    width: 320px;
+    margin-right: 70px;
+    padding-bottom: 50px;
+ }
+
+
+ /* FOURTH PART */
+
+ .manu_bar{
+    background-color: black;
+    min-height: 500px;
+}
+
+.title{
+    color: bisque;
+    text-transform: uppercase;
+    text-align: center;
+     display: flex;
+     justify-content: center;
+     font-family: 'Merriweather', serif;
+}
+
+hr{
+    background-color: red;
+    width: 200px;
+    height: 5px;
+    margin: 0px 650px;
+}
+
+.title:hover{
+    border: 1px solid coral;
+    margin-left: 45%;
+    margin-right: 45%;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(46, 173, 216);
+}
+
+.description{
+    color: aliceblue;
+    margin: 4% 21.5%;
+
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+    justify-content: center;
+    row-gap: 4%;
+}
+.contant{
+    color: white;
+    
+}
+.card_title{
+    color: darkorange;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.card_image img{
+    width: 100%;
+    height: 100px; 
+}
+.detail{
+    font-size: 13px;
+    margin-right: 50px;
+}
+
+.card_detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2%;
+}
+
+/* FIFTH PART */
+.FIND_US{
+    color:bisque;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+   }
+   
+.google_findus{
+    background-color: black;
+    min-height: 450px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 45px;
+}
+.all_detail{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.location img{
+    width: 30px;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.location p{
+    font-size: 12px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    
+}
+
+.contact .logo img{
+    width: 40px;
+    height: 40px;
+}
+.map iframe{
+    width: 350px;
+    height:250px;
+}
+.google_findus:hover, .add:hover, .location p:hover, .map iframe:hover{
+    border: 2px solid rgb(31, 89, 112);
+}
+
+/* FOOTER */
+.footer-part{
+    background-color: black;
+}
+.ph , .contact_detail p{
+    color:white;
+}
+
+.footer-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    justify-content: center;
+    align-items:  center;
+}
+.mail img{
+    width: 40px;
+}
+
+.mail p{
+    font-size: 12px;
+}
+.contact_detail{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-right: 300px;
+}
+
+.chef img{
+    width: 100%;
+}
+.footer-part:hover , .chef img:hover, .mail:hover  , .contact:hover{
+    border: 2px solid rgb(31, 89, 112);
+}
