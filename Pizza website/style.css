@@ -139,17 +139,19 @@ nav{
     text-decoration-line: underline;
     text-decoration-color:rgb(31, 157, 199);
     text-decoration-style:solid;
-    text-decoration-thickness:2px;
 
 }
 .pizza_receipe:hover{
-    border: 3px solid rgb(55, 134, 160);
+    border: 3px solid rgb(3, 79, 104);
+    outline: 3px solid coral;
+    outline-style:dotted;
     border-radius: 5px;
 }
 .pizza_receipe img{
     height: 250px;
     width: 300px;
 } 
+
 .two_container{
  display: flex;
  align-items: center;
@@ -218,6 +220,7 @@ hr{
     color: darkorange;
     text-transform: uppercase;
     margin-bottom: 5px;
+    font-family: 'Merriweather', serif;
 }
 .card_image img{
     width: 100%;
@@ -234,6 +237,17 @@ hr{
     justify-content: center;
     column-gap: 2%;
 }
+/* hover used in outline */
+.card_detail img:hover{
+    border: 3px solid rgb(22, 138, 211);
+    outline: 3px solid coral;
+    outline-style:groove;
+}
+.contant .detail:hover , .contant .card_title:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(46, 173, 216);
+}
+
 
 /* FIFTH PART */
 .FIND_US{
@@ -291,6 +305,7 @@ hr{
 .google_findus:hover, .add:hover, .location p:hover, .map iframe:hover{
     border: 2px solid rgb(31, 89, 112);
 }
+
 
 /* FOOTER */
 .footer-part{
