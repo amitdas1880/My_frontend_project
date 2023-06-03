@@ -198,9 +198,9 @@ nav .container{
     row-gap: 8px;
 }
 
-.item-detail .item-image{
-    font-size: 12px;
-    font-weight: 800;
+.item-detail .item-name{
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .item-detail .item-weight{

@@ -221,6 +221,7 @@ hr{
     text-transform: uppercase;
     margin-bottom: 5px;
     font-family: 'Merriweather', serif;
+    
 }
 .card_image img{
     width: 100%;
@@ -236,6 +237,8 @@ hr{
     align-items: center;
     justify-content: center;
     column-gap: 2%;
+     box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(184, 116, 116, 0.22) 0px 10px 10px;
+    
 }
 /* hover used in outline */
 .card_detail img:hover{
